@@ -1,0 +1,85 @@
+Parametry: fm=2Hz, fn=50Hz, fs=1024Hz
+
+Sygnal: AM (k = 0.50)
+  Energia calkowita (E) = 1.12
+  Energia w oknie (E_alpha) = 1.00 (r_alpha = 88.89%)
+  Szerokosc pasma B = 2.00 Hz (alpha = 1.00 Hz)
+  Przebieg obliczen:
+    -> alpha = 1.00 Hz | E_alpha =   1.00 | r_alpha =  88.89%
+Sygnal: AM (k = 5.00)
+  Energia calkowita (E) = 13.50
+  Energia w oknie (E_alpha) = 13.50 (r_alpha = 100.00%)
+  Szerokosc pasma B = 4.00 Hz (alpha = 2.00 Hz)
+  Przebieg obliczen:
+    -> alpha = 1.00 Hz | E_alpha =   1.00 | r_alpha =   7.41%
+    -> alpha = 2.00 Hz | E_alpha =  13.50 | r_alpha = 100.00%
+Sygnal: AM (k = 25.00)
+  Energia calkowita (E) = 313.50
+  Energia w oknie (E_alpha) = 313.50 (r_alpha = 100.00%)
+  Szerokosc pasma B = 4.00 Hz (alpha = 2.00 Hz)
+  Przebieg obliczen:
+    -> alpha = 1.00 Hz | E_alpha =   1.00 | r_alpha =   0.32%
+    -> alpha = 2.00 Hz | E_alpha = 313.50 | r_alpha = 100.00%
+Sygnal: PM (k = 0.50)
+  Energia calkowita (E) = 1.00
+  Energia w oknie (E_alpha) = 0.88 (r_alpha = 88.07%)
+  Szerokosc pasma B = 2.00 Hz (alpha = 1.00 Hz)
+  Przebieg obliczen:
+    -> alpha = 1.00 Hz | E_alpha =   0.88 | r_alpha =  88.07%
+Sygnal: PM (k = 2.00)
+  Energia calkowita (E) = 1.00
+  Energia w oknie (E_alpha) = 0.96 (r_alpha = 96.43%)
+  Szerokosc pasma B = 8.00 Hz (alpha = 4.00 Hz)
+  Przebieg obliczen:
+    -> alpha = 1.00 Hz | E_alpha =   0.05 | r_alpha =   5.01%
+    -> alpha = 2.00 Hz | E_alpha =   0.72 | r_alpha =  71.54%
+    -> alpha = 3.00 Hz | E_alpha =   0.72 | r_alpha =  71.54%
+    -> alpha = 4.00 Hz | E_alpha =   0.96 | r_alpha =  96.43%
+Sygnal: PM (k = 8.00)
+  Energia calkowita (E) = 1.00
+  Energia w oknie (E_alpha) = 0.86 (r_alpha = 85.93%)
+  Szerokosc pasma B = 28.00 Hz (alpha = 14.00 Hz)
+  Przebieg obliczen:
+    -> alpha = 1.00 Hz | E_alpha =   0.03 | r_alpha =   2.95%
+    -> alpha = 2.00 Hz | E_alpha =   0.14 | r_alpha =  13.96%
+    -> alpha = 3.00 Hz | E_alpha =   0.14 | r_alpha =  13.96%
+    -> alpha = 4.00 Hz | E_alpha =   0.17 | r_alpha =  16.51%
+    -> alpha = 5.00 Hz | E_alpha =   0.17 | r_alpha =  16.51%
+    -> alpha = 6.00 Hz | E_alpha =   0.33 | r_alpha =  33.46%
+    -> alpha = 7.00 Hz | E_alpha =   0.33 | r_alpha =  33.46%
+    -> alpha = 8.00 Hz | E_alpha =   0.36 | r_alpha =  35.68%
+    -> alpha = 9.00 Hz | E_alpha =   0.36 | r_alpha =  35.68%
+    -> alpha = 10.00 Hz | E_alpha =   0.43 | r_alpha =  42.58%
+    -> alpha = 11.00 Hz | E_alpha =   0.43 | r_alpha =  42.58%
+    -> alpha = 12.00 Hz | E_alpha =   0.65 | r_alpha =  65.38%
+    -> alpha = 13.00 Hz | E_alpha =   0.65 | r_alpha =  65.38%
+    -> alpha = 14.00 Hz | E_alpha =   0.86 | r_alpha =  85.93%
+Sygnal: FM (k = 0.50)
+  Energia calkowita (E) = 1.00
+  Energia w oknie (E_alpha) = 0.97 (r_alpha = 96.91%)
+  Szerokosc pasma B = 2.00 Hz (alpha = 1.00 Hz)
+  Przebieg obliczen:
+    -> alpha = 1.00 Hz | E_alpha =   0.97 | r_alpha =  96.91%
+Sygnal: FM (k = 2.00)
+  Energia calkowita (E) = 1.00
+  Energia w oknie (E_alpha) = 0.97 (r_alpha = 97.28%)
+  Szerokosc pasma B = 4.00 Hz (alpha = 2.00 Hz)
+  Przebieg obliczen:
+    -> alpha = 1.00 Hz | E_alpha =   0.59 | r_alpha =  58.55%
+    -> alpha = 2.00 Hz | E_alpha =   0.97 | r_alpha =  97.28%
+Sygnal: FM (k = 8.00)
+  Energia calkowita (E) = 1.00
+  Energia w oknie (E_alpha) = 0.80 (r_alpha = 80.17%)
+  Szerokosc pasma B = 12.00 Hz (alpha = 6.00 Hz)
+  Przebieg obliczen:
+    -> alpha = 1.00 Hz | E_alpha =   0.16 | r_alpha =  15.77%
+    -> alpha = 2.00 Hz | E_alpha =   0.17 | r_alpha =  16.65%
+    -> alpha = 3.00 Hz | E_alpha =   0.17 | r_alpha =  16.65%
+    -> alpha = 4.00 Hz | E_alpha =   0.43 | r_alpha =  43.16%
+    -> alpha = 5.00 Hz | E_alpha =   0.43 | r_alpha =  43.16%
+    -> alpha = 6.00 Hz | E_alpha =   0.80 | r_alpha =  80.17%
+
+WNIOSKI I OBSERWACJE:
+1. Szerokosc pasma wyznaczona metoda energetyczna skupia sie na obszarze zawierajacym 80% mocy sygnalu.
+2. Metoda ta pozwala na bardziej obiektywne szacowanie pasma dla sygnalow o skomplikowanym widmie (PM, FM).
+3. Zwiekszenie wspolczynnika k w modulacjach katowych prowadzi do wyraznego wzrostu szerokosci pasma B.

@@ -1,0 +1,44 @@
+Parametry: fm=2Hz, fn=50Hz, fs=1024Hz
+
+Sygnal: AM (k = 0.5)
+  B_3dB  = 0.00 Hz (50.00-50.00 Hz)
+  B_6dB  = 0.00 Hz (50.00-50.00 Hz)
+  B_10dB = 0.00 Hz (50.00-50.00 Hz)
+Sygnal: AM (k = 5.00)
+  B_3dB  = 4.00 Hz (48.00-52.00 Hz)
+  B_6dB  = 4.00 Hz (48.00-52.00 Hz)
+  B_10dB = 4.00 Hz (48.00-52.00 Hz)
+Sygnal: AM (k = 25.00)
+  B_3dB  = 4.00 Hz (48.00-52.00 Hz)
+  B_6dB  = 4.00 Hz (48.00-52.00 Hz)
+  B_10dB = 4.00 Hz (48.00-52.00 Hz)
+Sygnal: PM (k = 0.50)
+  B_3dB  = 0.00 Hz (50.00-50.00 Hz)
+  B_6dB  = 0.00 Hz (50.00-50.00 Hz)
+  B_10dB = 0.00 Hz (50.00-50.00 Hz)
+Sygnal: PM (k = 2.00)
+  B_3dB  = 4.00 Hz (48.00-52.00 Hz)
+  B_6dB  = 8.00 Hz (46.00-54.00 Hz)
+  B_10dB = 8.00 Hz (46.00-54.00 Hz)
+Sygnal: PM (k = 8.00)
+  B_3dB  = 28.00 Hz (36.00-64.00 Hz)
+  B_6dB  = 32.00 Hz (34.00-66.00 Hz)
+  B_10dB = 36.00 Hz (32.00-68.00 Hz)
+Sygnal: FM (k = 0.50)
+  B_3dB  = 0.00 Hz (50.00-50.00 Hz)
+  B_6dB  = 0.00 Hz (50.00-50.00 Hz)
+  B_10dB = 0.00 Hz (50.00-50.00 Hz)
+Sygnal: FM (k = 2.00)
+  B_3dB  = 0.00 Hz (50.00-50.00 Hz)
+  B_6dB  = 4.00 Hz (48.00-52.00 Hz)
+  B_10dB = 4.00 Hz (48.00-52.00 Hz)
+Sygnal: FM (k = 8.00)
+  B_3dB  = 12.00 Hz (44.00-56.00 Hz)
+  B_6dB  = 16.00 Hz (42.00-58.00 Hz)
+  B_10dB = 16.00 Hz (42.00-58.00 Hz)
+
+WNIOSKI I OBSERWACJE:
+1. Szerokosc pasma sygnalu modulowanego zalezy od wspolczynnika modulacji k.
+2. Dla modulacji AM szerokosc pasma teoretycznie wynosi 2*fm (4Hz), co widac przy spadku 10dB.
+3. W modulacjach PM i FM zwiekszenie k powoduje znaczne rozszerzenie widma (powstawanie bocznych prazkow).
+4. Szacowanie pasma zalezy od przyjetego kryterium (3dB, 6dB czy 10dB) - im wiekszy spadek, tym wieksza zmierzona szerokosc.
