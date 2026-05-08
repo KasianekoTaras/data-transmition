@@ -1,0 +1,17 @@
+
+
+ASK
+B = 2 Hz
+r_alpha = 90.0962 %
+
+PSK
+B = 12 Hz
+r_alpha = 85.5989 %
+
+FSK
+B = 37 Hz
+r_alpha = 82.1637 %
+
+
+1. Metoda energetyczna pozwala na rzetelne oszacowanie niezbednego pasma transmisyjnego poprzez analize procentowego udzialu calkowitej energii sygnalu (w tym przypadku > 80%).
+2. Chociaz widma sygnalow zmodulowanych cyfrowo sa teoretycznie nieograniczone, znakomita wiekszosc energii uzytecznej koncentruje sie w stosunkowo waskim otoczeniu czestotliwosci nosnej, co potwiedza wyznaczone okno (2*alpha).

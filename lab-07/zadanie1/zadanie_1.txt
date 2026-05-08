@@ -1,0 +1,20 @@
+
+
+ASK
+B_3dB = 0 Hz
+B_6dB = 0 Hz
+B_10dB = 0 Hz
+
+PSK
+B_3dB = 2.85714 Hz
+B_6dB = 10 Hz
+B_10dB = 12.8571 Hz
+
+FSK
+B_3dB = 0 Hz
+B_6dB = 0 Hz
+B_10dB = 10 Hz
+
+
+1. Wraz ze zwiekszeniem analizowanego spadku poziomu odniesienia (z 3 dB do 10 dB) wyznaczana szerokosc pasma rosnie. Wynika to z faktu uwzgledniania coraz nizszych, szerszych partii widma.
+2. Rozne typy modulacji charakteryzuja sie odmienna szerokoscia pasma. Modulacja FSK zazwyczaj zajmuje szersze pasmo w porownaniu do ASK i PSK ze wzgledu na obecnosc dwoch roznych czestotliwosci nosnych w sygnale.
